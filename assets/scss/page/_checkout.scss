@@ -1,0 +1,70 @@
+/* =============
+    Check Content    
+============= */
+
+.check-section {
+    padding-bottom: 150px;
+    h2 {
+        font-family: 'Crimson Pro';
+        font-size: 96px;
+        padding: 30px 0;
+        @include md-max {
+            font-size: 36px;
+        }
+    }
+    h3 {
+        padding-top: 50px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .email-form {
+        display: flex;
+        margin: 24px 0;
+        max-width: 424px;
+        input {
+            flex: 1;
+            border: none;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            padding: 16px 24px;
+            background-color: #D9D9D9;
+        }
+        button {
+            color: $white;
+            background-color: $brown;
+            border: none;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            outline: none;
+            padding: 12px 18px;
+            cursor: pointer;
+        }
+    }
+    .edit-btn {
+        color: $brown;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .order-list {
+        max-width: 300px;
+        li {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .submit-btn {
+        font-size: 36px;
+        font-weight: 600;
+        color: $white;
+        background-color: $brown;
+        padding: 12px 50px;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 40px;
+        cursor: pointer;
+        @include md-max {
+            font-size: 24px;
+        }
+    }
+}
